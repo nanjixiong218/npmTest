@@ -1,2 +1,0 @@
-var main = require('../lib/changeFilesName');
-main.changeFilesName();

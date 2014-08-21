@@ -1,11 +1,18 @@
 {
-	"name" : "changefilesname",
-	"version" : "1.0.1",
-	"main" : "./lib/changeFilesName.js",
-	"bin" : {
-		"changeFilesName" : "./bin/changeFilesName"	
-	},
-	"engines" : {
-		"node" : ">= 0.8.0"	
-	}
+  "name": "me",
+  "version": "1.0.1",
+  "description": "test change files name",
+  "main": "./lib/changefilesname.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "dependencies":{
+	  "changefilesname":"1.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nanjixiong218",
+  "license": "ISC"
 }

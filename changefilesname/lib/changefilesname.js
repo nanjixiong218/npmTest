@@ -1,12 +1,10 @@
-/**
- * Created by Administrator on 2014/8/12.
- */
+#!/usr/bin/env node
 
 var fs  = require('fs');
 var path = require('path');
 var url='C:/Users/Administrator/Desktop/整理/新资料/我的图片资源/book/xu.txt';
 
-function changeFileName(err,fileUrl,index){
+function changefilename(err,fileUrl,index){
     var fileUrlArr =  fileUrl.split("\\");
     var dir = fileUrlArr.slice(0,-1).join("\\");
     var newFileName = fileUrl.split("\\")[fileUrlArr.length-1].replace(/(.*)\.jpg/,index+".jpg");
@@ -34,7 +32,7 @@ function main (argv,callback){
         }
     })
 }
-function changeFilesName(){
-	main(process.argv,changeFileName);
+function changefilesname(){
+	main(process.argv,changefilename);
 }
-exports.changeFilesName = changeFilesName;
+exports.changefilesname = changefilesname;
