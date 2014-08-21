@@ -1,0 +1,11 @@
+{
+	"name" : "changefilesname",
+	"version" : "1.0.1",
+	"main" : "./lib/changeFilesName.js",
+	"bin" : {
+		"changeFilesName" : "./bin/changeFilesName"	
+	},
+	"engines" : {
+		"node" : ">= 0.8.0"	
+	}
+}
