@@ -4,8 +4,11 @@
  
 ##使用
 > 启动cmd,输入命令
+
 > changefilesname 文件夹路径 文件前缀
+
 > 例
+
 > changefilesname C:\Users\xu\Desktop\testDir xu
 
 这样就会把对应目录的下的文件全部重命名为xu1.jpg,xu2.jpg,xu3.jpg……这样依次递增
