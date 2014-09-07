@@ -1,18 +1,24 @@
 {
-  "name": "me",
-  "version": "1.0.1",
-  "description": "test change files name",
+  "name": "changefilesname",
+  "version": "1.1.3",
+  "description": "change files name",
   "main": "./lib/changefilesname.js",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
-  "dependencies":{
-	  "changefilesname":"1.0.8"
+  "bin": {
+    "changefilesname": "./bin/changefilesname"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "nanjixiong218",
-  "license": "ISC"
+  "readmeFilename": "readme.md",
+  "author": {
+    "name": "nanjixiong218"
+  },
+  "license": "MIT",
+  "_id": "changefilesname@1.1.0",
+  "dist": {
+    "shasum": "9c0aa3aefc4c79accf8fa102dd7d2664d40fd553"
+  },
+  "_from": "changefilesname@~1.1.0",
+  "_resolved": "https://registry.npmjs.org/changefilesname/-/changefilesname-1.0.8.tgz",
+  "_shasum": "cdd6ee743994a383357a071e690e8c94c217d5ea"
 }
